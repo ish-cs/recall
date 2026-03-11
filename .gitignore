@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Python
+ml-worker/.venv/
+ml-worker/__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Build outputs
+dist/
+src-tauri/target/
+*.app
+*.dmg
+
+# OS
+.DS_Store
+*.icloud
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Claude
+.claude/
+
+# Logs
+*.log
+
+# Env
+.env
+.env.local
